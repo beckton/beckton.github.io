@@ -1,0 +1,15 @@
+/*
+    BOOTSTRAP STARTER PAGE
+    Filename: styles.css
+    
+    Author: Bec Braughton
+    Date: 8.29.17
+    CIS 131-102 Engebretsen
+*/
+.jumbotron {
+    background-color: #373838;
+}
+body {
+    background-color: #AFACAC;
+    color: white;
+}

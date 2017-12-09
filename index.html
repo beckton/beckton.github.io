@@ -1,8 +1,178 @@
-<DOCTYPE! html>
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <!--
+            BOOTSTRAP STARTER PAGE
+            Filename: index.html
+            
+            Author: Bec Braughton
+            Date: 8.29.17
+            CIS 131-102 Engebretsen
+        -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bec Braughton</title>
 
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="shortcut icon" href="images/bec.ico">
+		<link rel="apple-touch-icon" href="images/bec.PNG">
+		<link rel="icon" sizes="192x192" href="images/bec.PNG">
+
+    <!-- Lower the text to account for the nav bar  -->
+    <style type = "text/css">
+        body { padding-top: 51px; background-color: #AFACAC; color: white; }
+        .jumbotron { background-color: #373838; }
+        footer { margin-top: 100px; margin-bottom: 5px; text-align: center; }
+    </style>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">       
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="http://www.linkedin.com/in/bec-braughton" target="_blank">LinkedIn</a></li>
+            <li><a href="http://www.github.com/beckton" target="_blank">Git Profile</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <h1><big>Bec Braughton</big></h1>
+          <p>AKA - beckton</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">   
+      <div class="page-header">
+          <h1><big>Who Is Bec? </big><small>Motivated, Ambitious, Inquisitive</small></h1>
+      </div>
+      <div class="info">
+        <article>
+          <h4>
+            <big>I'm very</big> excited to be a part of the tech world; I will be graduating with my Specialist 
+            Certificate in Computer Programming with a focus on Python, C# and SQL this Fall of 2017 and will 
+            be one class away from my Specialist Certificate in Web Development with a focus on HTML5, CSS3, 
+            and PHP, (which I will take in the Spring).
+          </h4>
+          <h4>
+            <big>Who am I?</big> I'm a geek. I have to keep telling myself that I have transitioned from nerd to 
+            geek, but its becoming more natural to say the more I learn. I play old school video games on my Super 
+            Nintendo, I love to cook food from all over the world for friends and family, and I have been practicing 
+            Iyengar Yoga, (musculo-skeletal alignment, no fluff), for about 6 years; I like the idea of being able to 
+            do whatever I want to do when I'm old, pickle jars be damned!
+          </h4>
+          <h4>  
+            <big>I love</big> learning new things and meeting other geeks; you can find me at tech MeetUps or hanging out 
+            at a local cafe. Feel free to email me at bec.braughton@gmail.com if you’d like to join me.
+          </h4>
+        </article>
+      </div>
+      <div class="pics">
+        <div class="row">
+          <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="Images\dogs.jpg" alt="Two_Dogs">
+              <div class="caption">
+                <h3>Pepper &amp; Elli</h3>
+                <p>Two hilarious pups who keep me company.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="Images\prince.JPG" alt="Prince_Costume">
+              <div class="caption">
+                <h3>Halloween</h3>
+                <p>I like watching creepy movies, making spooky food and dressing up - here I am as Prince.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="Images\gobi.jpg" alt="Gobi_Manchurian">
+              <div class="caption">
+                <h3>Gobi Manchurian</h3>
+                <p>Flax fried cauliflower over sticky rice with a delicious sauce, garnished with scallions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="Images\kids.jpg" alt="Two_Kids">
+              <div class="caption">
+                <h3>The Niece &amp; Nephew</h3>
+                <p>Taylor and Carter. They wish to design and test cars together when they grow up.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="Images\cocktail.jpg" alt="Green_Cocktail">
+              <div class="caption">
+                <h3>Cabinet Assembler</h3>
+                <p>A ginger, pineapple and amaretto cocktail that I invented.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="Images\swim.jpg" alt="Ocean_Swim">
+              <div class="caption">
+                <h3>The Amalfi Coast</h3>
+                <p>I love travel; here I am swimming off of the Amalfi coast by the Faraglioni Rocks.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="Images\robot.JPG" alt="Made_A_Robot">
+              <div class="caption">
+                <h3>LexoNXT Robot</h3>
+                <p>I made my first robot at the beginning of this year!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="Images\meetup.jpeg" alt="MeetUp">
+              <div class="caption">
+                <h3>MeetUps</h3>
+                <p>I attend all of the tech MeetUps I can so that I can stay in the loop.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>&copy; Bec Braughton 2017</p>
+      </footer>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </div>
+  </body>
 </html>
